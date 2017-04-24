@@ -1,0 +1,178 @@
+body{
+	font-family: 'Mukta Vaani', 'sans-serif';
+    width: 100%;
+    margin-top: 0px;
+    margin: auto;
+    background-color: #660000;
+}
+/* index.html*/
+.logo{
+    width: 50%;
+    margin: auto;
+    padding-left: 50px;
+}
+.logo img{width: 80%;}
+
+.special{
+    text-align: center;
+    border-bottom: 1px #d3d3d3 solid;
+}
+.special div{
+    width: 10%;
+    display: inline-block;
+    margin: 20px;
+}
+.special img{
+    max-width: 100%;
+    max-height: 100px;          
+}
+.special a:hover {background-color: #4682b4;}
+.footer{
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+    text-align: center;
+}
+.footer p{color: #FFFFFF;}
+/*about.html*/
+.full{
+    width: 80%;
+    margin: auto;
+}
+.map iframe{width: 100%;}
+.address{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.address p{font-size: 20px;}
+.border{font-size: 20px;}
+/*menu.html*/
+.imgleft{
+    width: 10%;
+    height: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.imgleft img {
+    width: 100%;
+    height: 175px;
+}
+imgleft a{text-decoration: none;}
+.total{
+    color: white;
+    padding: 10px 0px 0px 140px;
+    width: 79%; 
+    top: 0px;
+    margin: auto;
+    float: left;
+}
+.total h1{
+    text-align: center;
+    font-size: 50px;
+}
+/*index.html, about.html, menu.html, checkout.html*/ 
+.nav {
+    text-align: center;
+    font-size: 30px;
+    top: 50px;
+    width: 100%;
+}
+.nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+.nav li{
+    display: inline-block;
+    margin: 20px 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav li a:hover {background-color: #4682b4;}
+/*menu.html*/
+.container{
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+}
+.container a{
+    border-radius: 4px;
+    padding: 1px 1px 1px 1px;
+}
+table, th, td{border: 1px solid black;}
+th{
+	background-color: black;
+    text-align: left;
+    font-size: 30px;
+    height: 50px;
+    width: 600px;
+}
+table{width: 700px;}
+
+td{
+	font-size: 20px;
+	text-align: left;
+}
+.small{height: 5px;}
+    
+.more{width: 650px;}
+
+.less {
+	width: 50px;
+    text-align: center; 
+}
+.less a{
+	color: white;
+    text-decoration: none;
+    background-color: orange;
+    font-size: 15px;
+}
+.order{
+    width: 20%;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    left: 900px;
+    margin-left: 10px;
+}
+.order, a{
+    text-decoration: none;
+    color: white;
+}
+.imgright{
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 10%;
+    height: 0px;
+    text-align: center;
+}
+.imgright img{
+    width: 100%;
+    height: 175px;
+}
+imgright a{text-decoration: none;}
+
+.clear{clear:both;}
+
+/*Checkout.html*/
+form{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+fieldset h1, p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+fieldset label{font-size: 20px;}
+.map{
+    width: 80%;
+    margin: auto;
+}
